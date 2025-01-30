@@ -21,7 +21,8 @@ Echo erlaubt es Nutzern, verschiedene Gesundheitsdaten täglich zu erfassen:
 Die Daten werden täglich abgefragt und mit **PUT- & GET-Requests** gespeichert bzw. abgerufen. 
 Zukünftige Erweiterungen umfassen:
 - **Statistiken & Analysen**: Durchschnittswerte für verschiedene Kategorien
-- **Visualisierung von Daten**: Diagramme zur Darstellung von Trends 
+- **Visualisierung von Daten**: Diagramme zur Darstellung von Trends
+- **Mentale Gesundheitschecks**: Tests zur Selbsteinschätzung von Depression, Burnout, ADHS und anderen psychischen Faktoren
 
 ## 👩‍💻 Geplantes Frontend
 Das Frontend wird mit **React** als **Single-Page-Webanwendung (SPA)** entwickelt und enthält folgende Seiten:
