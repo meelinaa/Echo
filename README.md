@@ -45,11 +45,11 @@ Das Frontend wird mit **React** als **Single-Page-Webanwendung (SPA)** entwickel
 - Responsive Design **(Mobile-Ansicht optional geplant)** 
 
 ## 🔬 Technologie-Stack (Fullstack)
-### **Backend** (Fertiggestellt)  
+### **Backend** 
 - **Java 21** & **Spring Boot** (REST API)  
 - **Spring Data JPA** (ORM)  
 - **PostgreSQL** (Docker-Container)  
-- **JUnit & Mockito** (100% Test Coverage)  
+- **JUnit & Mockito**  
 - **Lombok** zur Code-Optimierung  
 
 ### **Frontend** (Geplant)  
@@ -91,7 +91,7 @@ Das Frontend wird mit **React** als **Single-Page-Webanwendung (SPA)** entwickel
 
 ## 📝 Was konnte ich aus diesem Projekt lernen?
 - **Tiefes Verständnis für Backend-Architektur & REST APIs**
-- **Testing auf hohem Niveau (100% Test Coverage mit JUnit & Mockito)**
+- **Testing auf hohem Niveau**
 - **Einsatz von Docker & PostgreSQL für Datenbankmanagement**
 - **Strukturierte Planung eines Fullstack-Projekts**
 - **Vorbereitung auf moderne Frontend-Entwicklung mit React**
