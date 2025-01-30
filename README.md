@@ -1,9 +1,15 @@
 # Echo - Fullstack Health Tracker
 
 ## ✨ Projektübersicht  
-Echo ist ein **Fullstack Health-Tracker**, der Nutzern hilft, ihre **mentalen und körperlichen Gesundheitsdaten** zu erfassen und zu analysieren. Das Backend ist bereits implementiert und wurde mit **Java 21, Spring Boot und PostgreSQL (Docker)** entwickelt. Nun folgt die **Frontend-Entwicklung mit React**.
+Echo ist ein **ganzheitlicher Fullstack Health-Tracker**, der Nutzern hilft, ihre **mentale** und **körperliche Gesundheit** täglich festzuhalten, nachzuverfolgen und besser zu verstehen. Dabei geht es nicht nur darum, einzelne Datenpunkte zu speichern, sondern durch einfache Übersichten und Analysen Muster und Entwicklungen im eigenen Wohlbefinden zu erkennen.
 
 Das Ziel ist eine **Single-Page-Webanwendung**, die **tägliche Einträge** speichert und langfristig **Analysen und Auswertungen** der Daten ermöglicht. 
+
+## 🕸️ Projektstruktur
+
+Da Frontend und Backend in separaten Repositories gepflegt werden, finden Sie die aktuellen Inhalte hier:
+- [Frontend Repository](https://github.com/meelinaa)  
+- [Backend Repository](https://github.com/meelinaa/EchoBackend)
 
 ## 💪 Features & Funktionalität
 Echo erlaubt es Nutzern, verschiedene Gesundheitsdaten täglich zu erfassen:
@@ -22,7 +28,6 @@ Das Frontend wird mit **React** als **Single-Page-Webanwendung (SPA)** entwickel
 
 ### 🌍 Hauptseite
 - Erfassung der **täglichen Einträge** (Schlaf, Trinken, Schritte, Sport, Gedanken)
-- Dynamische UI mit **Live-Updates**
 
 ### 👤 Benutzerseite
 - Verwaltung der **Allgemeinen Daten** (Gewicht, Größe, Alter, etc.)
@@ -33,13 +38,10 @@ Das Frontend wird mit **React** als **Single-Page-Webanwendung (SPA)** entwickel
 - **Durchschnittswerte & Prognosen**
 - Interaktive Diagramme & Tabellen zur Darstellung der Datenentwicklung
 
-**Styling:** 
+🖌️ **Styling:** 
 - Design soll **minimalistisch, modern und ästhetisch** sein 
 - **CSS** für Styling
 - Responsive Design **(Mobile-Ansicht optional geplant)** 
-
-### 🧠 Desktop vs. Mobile Ansicht?
-Da Echo eine Web-App ist, wird primär eine **Desktop-Version** entwickelt. Allerdings ist eine **mobile Ansicht geplant**, um die Nutzung auf Smartphones zu optimieren.
 
 ## 🔬 Technologie-Stack (Fullstack)
 ### **Backend** (Fertiggestellt)  
@@ -60,7 +62,7 @@ Da Echo eine Web-App ist, wird primär eine **Desktop-Version** entwickelt. Alle
 1. **Projekt klonen**
    ```sh
    git clone https://github.com/meelinaa/EchoFullstack.git
-   cd EchoFullstack/backend 
+   cd EchoFullstack 
    ```
 2. **Docker-Container für PostgreSQL starten**
    ```sh
