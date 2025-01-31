@@ -8,7 +8,7 @@ Das Ziel ist eine **Single-Page-Webanwendung**, die **tägliche Einträge** spei
 ## 🕸️ Projektstruktur
 
 Da Frontend und Backend in separaten Repositories gepflegt werden, finden Sie die aktuellen Inhalte hier:
-- [Frontend Repository](https://github.com/meelinaa)  
+- [Frontend Repository](https://github.com/meelinaa/EchoFrontend)  
 - [Backend Repository](https://github.com/meelinaa/EchoBackend)
 
 ## 💪 Features & Funktionalität
