@@ -2,7 +2,6 @@
 
 <img src="/README-images/Banner.png" alt="Beschreibung" style="width: 100%; display: block;">
 
-## ✨ Projektübersicht  
 Echo ist ein **ganzheitlicher Fullstack Health-Tracker**, der Nutzern hilft, ihre **mentale** und **körperliche Gesundheit** täglich festzuhalten, nachzuverfolgen und besser zu verstehen. Dabei geht es nicht nur darum, einzelne Datenpunkte zu speichern, sondern durch einfache Übersichten und Analysen Muster und Entwicklungen im eigenen Wohlbefinden zu erkennen.
 
 Das Ziel ist eine **Single-Page-Webanwendung**, die **tägliche Einträge** speichert und langfristig **Analysen und Auswertungen** der Daten ermöglicht. 
