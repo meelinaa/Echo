@@ -1,63 +1,53 @@
-# Echo - Fullstack Health Tracker
+# Echo - Fullstack Health Tracker 📊
 
 <img src="/README-images/Banner.png" alt="Beschreibung" style="width: 100%; display: block;">
 
-Echo ist ein **ganzheitlicher Fullstack Health-Tracker**, der Nutzern hilft, ihre **mentale** und **körperliche Gesundheit** täglich festzuhalten, nachzuverfolgen und besser zu verstehen. Dabei geht es nicht nur darum, einzelne Datenpunkte zu speichern, sondern durch einfache Übersichten und Analysen Muster und Entwicklungen im eigenen Wohlbefinden zu erkennen.
+Echo ist eine interaktive Webanwendung, die Nutzern hilft, ihre mentale und körperliche Gesundheit zu dokumentieren und langfristig zu analysieren. Durch eine benutzerfreundliche Oberfläche können tägliche Gesundheitsdaten wie Stimmung, Schritte oder Schlaf erfasst und Trends leicht nachvollzogen werden.
 
-Das Ziel ist eine **Single-Page-Webanwendung**, die **tägliche Einträge** speichert und langfristig **Analysen und Auswertungen** der Daten ermöglicht. 
+## Features
 
-## 🕸️ Projektstruktur
+- **Tägliche Datenerfassung:** Eingabe von Schlaf, Trinken, Schritte, Sport und Gedanken.
+- **Benutzerkonto:** Verwaltung von persönlichen Daten wie Größe, Gewicht und Alter.
+- **Reaktionsschnelles Frontend:** Entwickelt mit React, HTML und CSS für eine intuitive Benutzererfahrung.
+- **Backend-Integration:** RESTful APIs für die Kommunikation zwischen Frontend und Backend.
+- **Datenbank:** Speicherung und Verwaltung der Daten mit PostgreSQL, bereitgestellt via Docker.
+- **Testing:** Unit-Tests sind implementiert, Integrationstests sind in Planung.
+- **Erweiterbarkeit:** Die Architektur erlaubt einfache Integration zusätzlicher Features.
+  
+## Geplante Features
+- **Mentale Gesundheitschecks:** Tests zur Selbsteinschätzung von Depression, Burnout und anderen psychischen Faktoren.
+- **Datenanalyse:** Anzeige von Durchschnittswerten sowie Erkennung von Regelmäßigkeiten oder Abweichungen in den erfassten Daten.
+- **Datenvisualisierung:** Interaktive Diagramme zur Darstellung von Trends und Durchschnittswerten.
+
+## Projektstruktur
 
 Da Frontend und Backend in separaten Repositories gepflegt werden, finden Sie die aktuellen Inhalte hier:
-- [Frontend Repository](https://github.com/meelinaa/EchoFrontend)  
+- [Frontend Repository](https://github.com/meelinaa/EchoFrontend)
 - [Backend Repository](https://github.com/meelinaa/EchoBackend)
 
-## 💪 Features & Funktionalität
-Echo erlaubt es Nutzern, verschiedene Gesundheitsdaten täglich zu erfassen:
+## Technologien
 
-- **Allgemeine Daten**: Größe, Gewicht, Alter, BMI
-- **Mentale Daten**: Stimmung, Gedanken, Träume
-- **Körperliche Daten**: Getrunkene Flüssigkeitsmenge, Schritte, Schlafdauer, Sportaktivitäten
+- ⚛️ **Frontend:** React (JavaScript ES6+, HTML, CSS)
+- ☕ **Backend:** Java mit Spring Boot, Spring Data JPA, Lombok
+- 🔗 **API:** RESTful Services
+- 🗄️ **Datenbank:** PostgreSQL (via Docker)
+- 🐳 **Containerisierung:** Docker
+- ✅ **Testing:** JUnit und Mockito für das Backend, Jest für das Frontend
 
-Die Daten werden täglich abgefragt und mit **PUT- & GET-Requests** gespeichert bzw. abgerufen. 
-Zukünftige Erweiterungen umfassen:
-- **Statistiken & Analysen**: Durchschnittswerte für verschiedene Kategorien
-- **Visualisierung von Daten**: Diagramme zur Darstellung von Trends
-- **Mentale Gesundheitschecks**: Tests zur Selbsteinschätzung von Depression, Burnout, ADHS und anderen psychischen Faktoren
+## Software-Entwicklung und Planung
 
-## 👩‍💻 Geplantes Frontend
-Das Frontend wird mit **React** als **Single-Page-Webanwendung (SPA)** entwickelt und enthält folgende Seiten:
+Dieses Projekt wurde vollständig von Grund auf selbst geplant und entwickelt. Dazu gehören:
 
-### 🌍 Hauptseite
-- Erfassung der **täglichen Einträge** (Schlaf, Trinken, Schritte, Sport, Gedanken)
+- **Planung und Architektur:** Erstellung der gesamten Software-Architektur, einschließlich der Backend- und Frontend-Struktur.
+- **Coding-Praktiken:** Verwendung von Clean Code-Prinzipien und bewährten Design Patterns.
+- **Iterative Entwicklung:** Features werden schrittweise hinzugefügt, basierend auf einem agilen Entwicklungsansatz.
+- **Lernfokus:** Dieses Projekt vertieft meine Fähigkeiten in der Fullstack-Entwicklung, einschließlich API-Design, Datenbankintegration und Frontend-Design.
 
-### 👤 Benutzerseite
-- Verwaltung der **Allgemeinen Daten** (Gewicht, Größe, Alter, etc.)
-- Anpassung individueller Einstellungen
+## Screenshots
 
-### 🌟 Analysen & Verlauf
-- Historische **Datenvisualisierung** 
-- **Durchschnittswerte & Prognosen**
-- Interaktive Diagramme & Tabellen zur Darstellung der Datenentwicklung
+1. **Hauptseite:** Übersicht der täglichen Einträge
+<img src="/README-images/hauptseite.png" alt="Hauptseite" style="width: 100%; display: block;">
 
-🖌️ **Styling:** 
-- Design soll **minimalistisch, modern und ästhetisch** sein 
-- **CSS** für Styling
-- Responsive Design **(Mobile-Ansicht optional geplant)** 
-
-## 🔬 Technologie-Stack (Fullstack)
-### **Backend** 
-- **Java 21** & **Spring Boot** (REST API)  
-- **Spring Data JPA** (ORM)  
-- **PostgreSQL** (Docker-Container)  
-- **JUnit & Mockito**  
-- **Lombok** zur Code-Optimierung  
-
-### **Frontend** (Geplant)  
-- **React** (SPA)  
-- **CSS** für Styling  
-- **Jest** für Unit-Tests  
-- **Fetch** für API-Requests  
 
 ## 🛠️ Setup & Installation
 ### Backend starten
@@ -89,18 +79,6 @@ Das Frontend wird mit **React** als **Single-Page-Webanwendung (SPA)** entwickel
    ```sh
    npm start
    ```
-
-## 📝 Was konnte ich aus diesem Projekt lernen?
-- **Tiefes Verständnis für Backend-Architektur & REST APIs**
-- **Testing auf hohem Niveau**
-- **Einsatz von Docker & PostgreSQL für Datenbankmanagement**
-- **Strukturierte Planung eines Fullstack-Projekts**
-- **Vorbereitung auf moderne Frontend-Entwicklung mit React**
-
-## ✨ Weitere Schritte
-- **Frontend-Entwicklung starten** (React, CSS, Jest)
-- **Statistiken & Datenanalysen entwickeln**
-
 ---
 
 ## 🌐 Lizenz & Kontakt
