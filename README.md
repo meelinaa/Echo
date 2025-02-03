@@ -46,7 +46,10 @@ Dieses Projekt wurde vollständig von Grund auf selbst geplant und entwickelt. D
 ## Screenshots
 
 1. **Hauptseite:** Übersicht der täglichen Einträge
-<img src="/README-images/hauptseite.png" alt="Hauptseite" style="width: 100%; display: block;">
+<img src="/README-images/bento1.png" alt="Hauptseite" style="width: 100%; display: block;">
+
+2. **Bento:** Bearbeitungsmodus für die jeweiligen Bento Cards
+<img src="/README-images/bento2.png" alt="Hauptseite" style="width: 100%; display: block;">
 
 
 ## 🛠️ Setup & Installation
